@@ -13,3 +13,11 @@ toolchain_type(
 toolchain_type(
     name = "samer_bootstrap_toolchain",
 )
+
+samer_binary(
+    name = "hellothere",
+)
+
+toolchain_type(
+    name = "samer_standalone_toolchain",
+)
